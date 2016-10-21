@@ -5,9 +5,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    #return render(request, 'applicationform/templates/base.html', {})
-     html = "<html><body>It is now </body></html>"
-     return HttpResponse(html)
+    return render(request, 'base.html', {})
 
 
 def form_new(request):
