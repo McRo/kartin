@@ -11,3 +11,9 @@ def index(request):
 def form_new(request):
     form = PostForm()
     return render(request, 'form/form_new.html', {'form': form})
+
+
+def form_list(request):
+    """form = PostForm()
+    return render(request, 'form/form_new.html', {'form': form})
+    """
